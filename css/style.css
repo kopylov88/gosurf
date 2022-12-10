@@ -241,6 +241,8 @@ body {
   color: #fff;
   text-transform: uppercase;
   background-color: #171919;
+  overflow-x: hidden;
+  min-width: 320px;
 }
 
 .wrapper {
@@ -1245,8 +1247,12 @@ input[type=number] {
   cursor: pointer;
 }
 
-.shop-slide__circle.active .circle-minus + .circle-minus {
+.shop-slide__circle .circle-minus + .circle-minus {
   transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.shop-slide__circle.active .circle-minus + .circle-minus {
+  transform: translate(-50%, -50%) rotate(0);
 }
 
 .shop-slide__circle.active.active + .shop-slide__circle-text {
