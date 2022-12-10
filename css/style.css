@@ -2098,6 +2098,10 @@ input[type=number] {
     top: 42px;
     right: 15px;
   }
+
+  .shop-slide__information-btn .btn {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 375px) {
