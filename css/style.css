@@ -2040,6 +2040,13 @@ input[type=number] {
   }
 }
 
+@media (max-width: 530px) {
+  .shop-slide__circle-box--1 .shop-slide__circle-text {
+    left: auto;
+    right: 28px;
+  }
+}
+
 @media (max-width: 450px) {
   .slider-item__info-title {
     font-size: 24px;
@@ -2120,11 +2127,6 @@ input[type=number] {
   .travel-inner,
   .sleep-inner {
     background-image: none !important;
-  }
-
-  .shop-slide__circle-box--1 .shop-slide__circle-text {
-    left: auto;
-    right: 28px;
   }
 
   .shop .slider-arrows {
