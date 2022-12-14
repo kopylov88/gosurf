@@ -1658,7 +1658,6 @@ input[type=number] {
     transform: translateX(-100%);
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #424242;
     z-index: 30;
     transition: 0.3s;
@@ -1959,8 +1958,10 @@ input[type=number] {
 
   .menu__list {
     flex-direction: column;
-    justify-content: space-between;
-    height: 70%;
+  }
+
+  .menu__item {
+    padding: 20px 0;
   }
 
   .header__location {
