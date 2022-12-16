@@ -245,6 +245,10 @@ body {
   min-width: 320px;
 }
 
+body.no-scroll {
+  overflow-y: hidden;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
